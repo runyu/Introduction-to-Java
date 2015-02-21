@@ -17,6 +17,16 @@ public class Exercise15_04 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ArrayList<Number> list = new ArrayList<Number>();
+        list.add(14);
+        list.add(24);
+        list.add(4);
+        list.add(42);
+        list.add(5);
+        sort(list);
+        
+        for(int i = 0; i< list.size();i++)
+            System.out.print(list.get(i) +  " ");
     }
     public static void sort(ArrayList<Number> list){
     for(int i = 0; i<list.size()-1;i++){
