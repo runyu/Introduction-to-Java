@@ -1,2 +1,0 @@
-Matching vs Binding
-Matching a method signature and binding a method implementation are two separate issues. The declared type of the reference variable decides which method to match at com- pile time. The compiler finds a matching method according to the parameter type, number of parameters, and order of the parameters at compile time. A method may be implemented in several classes along the inheritance chain. The JVM dynamically binds the implementation of the method at runtime, decided by the actual type of the variable.
